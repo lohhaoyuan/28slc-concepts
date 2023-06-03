@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Lato&display=swap');
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.container{
+    width: 1000px;
+    margin: 200px auto;
+}
+body {
+  background-image: url('shards_emptcent.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center;
+
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin:10px;
+
+}
+h1{
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("alas.jpeg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.parallax2 {
+    /* The image used */
+    background-image: url("alas.jpeg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
