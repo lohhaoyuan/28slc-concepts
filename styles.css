@@ -8,6 +8,7 @@
     border-radius: 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
 }
 
 .container{
@@ -15,13 +16,15 @@
     margin: 200px auto;
 }
 body {
-  background-image: url('shards_emptcent.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
   background-position: center;
+  background-image: url('shards_emptcent.png');
 
 }
+
+
 
 p{
     font-family: 'Lato', sans-serif;
@@ -34,6 +37,8 @@ h1{
     text-align: center;
 
 }
+
+
 
 .parallax {
     /* The image used */
@@ -48,16 +53,4 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
   }
-.parallax2 {
-    /* The image used */
-    background-image: url("alas.jpeg");
 
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}  
